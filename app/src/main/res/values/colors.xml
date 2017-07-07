@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="alpha_black">#76382c05</color>
+    <color name="alpha_black2">#17382c05</color>
+    <color name="purple1">#9d44dc</color>
+    <color name="purple2">#7b499e</color>
+    <color name="white">#ffffff</color>
+    <color name="alpha_red2">#aaFF7E37</color>
+    <color name="alpha_blue2">#a23e3bf4</color>
+
+</resources>
