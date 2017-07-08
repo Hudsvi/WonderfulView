@@ -9,6 +9,7 @@ import android.widget.PopupWindow;
 
 import com.sylu.wonderfulview.activity.AnimationButton_AC;
 import com.sylu.wonderfulview.activity.Bubble_AC;
+import com.sylu.wonderfulview.activity.ProgressBar_AC;
 import com.sylu.wonderfulview.activity.Wave_Bezier_AC;
 
 import butterknife.ButterKnife;
@@ -37,7 +38,7 @@ public class MainActivity extends BaseActivity {
 
 
 
-    @OnClick({R.id.bubble,R.id.wave_bezier,R.id.btn_view})
+    @OnClick({R.id.bubble,R.id.wave_bezier,R.id.btn_view,R.id.progress})
     public void onViewClicked(View v ) {
         switch (v.getId()) {
             case R.id.bubble:
@@ -49,6 +50,8 @@ public class MainActivity extends BaseActivity {
             case R.id.btn_view:
                 startAct(AnimationButton_AC.class);
                 break;
+            case R.id.progress:
+                startAct(ProgressBar_AC.class);
         }
     }
     private void startAct(Class baseMapClass) {

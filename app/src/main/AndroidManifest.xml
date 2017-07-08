@@ -19,6 +19,7 @@
         <activity android:name=".activity.Bubble_AC"/>
         <activity android:name=".activity.Wave_Bezier_AC"/>
         <activity android:name=".activity.AnimationButton_AC" />
+        <activity android:name=".activity.ProgressBar_AC" />
     </application>
 
 </manifest>
