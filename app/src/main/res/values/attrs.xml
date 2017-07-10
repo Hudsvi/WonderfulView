@@ -16,7 +16,30 @@
         <attr name="strokeWidth" format="dimension" />
 
         <!--动画时长-->
-        <attr name="duration" format="integer"/>
+        <attr name="duration" format="integer" />
 
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBarView">
+        <!--进度条底层背景-->
+        <attr name="bgBarColor" format="color" />
+        <!--进度条颜色-->
+        <attr name="progressBarColor" format="color" />
+        <!--进度条粗细-->
+        <attr name="barThickness" format="dimension" />
+        <!--是否展示文本进度框-->
+        <attr name="showingText" format="boolean"/>
+        <!--文本字体大小-->
+        <attr name="textSize" format="dimension" />
+        <!--文本字体颜色-->
+        <attr name="textColor" format="color" />
+        <!--文本框背景-->
+        <attr name="textBgColor" format="color" />
+        <!--文本框尺寸-->
+        <attr name="textHeight" format="dimension" />
+        <attr name="textWidth" format="dimension" />
+        <!--进度条离文本框的边距-->
+        <attr name="barMarginTop" format="dimension" />
+        <attr name="triangleHeight" format="dimension" />
     </declare-styleable>
 </resources>

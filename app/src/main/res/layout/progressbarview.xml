@@ -63,4 +63,24 @@
         android:text="更新"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/circleProgressBarView" />
+    <com.sylu.wonderfulview.customview.ProgressBarView
+        xmlns:pro="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="8dp"
+        pro:textColor="@color/white"
+        pro:textBgColor="@color/purple1"
+        pro:bgBarColor="@color/white_balck"
+        pro:progressBarColor="@color/purple1"
+        pro:barThickness="8dp"
+        pro:barMarginTop="4dp"
+        pro:textWidth="32dp"
+        pro:textHeight="16dp"
+        pro:textSize="8sp"
+        pro:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        pro:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        pro:layout_constraintTop_toBottomOf="@+id/btn_progress_ok" />
 </android.support.constraint.ConstraintLayout>

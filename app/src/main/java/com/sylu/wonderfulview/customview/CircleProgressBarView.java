@@ -232,7 +232,13 @@ public class CircleProgressBarView extends View {
                 animator.pause();
             }
     }
+    public void resumeAnimation(){
+        if (animator != null)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                animator.resume();
+            }
 
+    }
     public void stopAnimation() {
         if (animator != null)
             animator.cancel();
